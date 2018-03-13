@@ -24,8 +24,12 @@ Follow these instructions carefully and in order.
 
 (Put your answer here)
 
+let is only available for use if it is in the same block of code as where it is asking to be used. let's 'bucket' contents can be changed and accessed and manipulated as well as its binding. const's binding connot be changed and only if its an object can the contents of its 'bucket' be changed. IE it connot be used in for loops or arrays, whereas let can, but only if it is being used inside that specific block of code, OR it is being declared 'globally'.
+
 ---
 
 ##### How did it go with making the adaptation from concatenations to template literal notation? Do you think you'll mostly use template literal notation from now on?
 
 (Put your answer here)
+
+we'll see. it is easier to read in the code, but the amount of keystrokes is about the same, so we will see. but it is easier to find and read concatination in the code when the new way is used.

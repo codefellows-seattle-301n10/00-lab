@@ -22,10 +22,10 @@ Follow these instructions carefully and in order.
 
 ##### Investigate how `let` and `const` are now used in the code. Where did you need to convert `const` into `let` to make the code work? Can you identify any patterns/similarities?
 
-(Put your answer here)
-
----
+I converted const back into let variable in all the for loops since the loop needed to be updated. I also converted const into let for the allProducts[] since I am pushing objects made using the Product constructor function into that array. Additionally, I converted const into let for the totalClicks counter which keeps track of the number of clicks for the user. Since const, cannot be changed once a value has been assigned to it, these were the places which needed updates during the program and had to be changed into the let variable.
 
 ##### How did it go with making the adaptation from concatenations to template literal notation? Do you think you'll mostly use template literal notation from now on?
 
-(Put your answer here)
+It went well once I understood the template literal notaion. I plan to use it more, I just need to practice it so it becomes second nature to me.
+
+

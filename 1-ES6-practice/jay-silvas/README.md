@@ -22,10 +22,11 @@ Follow these instructions carefully and in order.
 
 ##### Investigate how `let` and `const` are now used in the code. Where did you need to convert `const` into `let` to make the code work? Can you identify any patterns/similarities?
 
-(Put your answer here)
+  *Any variables who's assignment needed to be mutable needed to be changed back to 'let', for instance the counter 'i' in for loops could not be const.*
+  *With the initial console.log, it was just a scoping problem that prevented the code from running, since the log was not with the scope of the variable it was calling.*
 
 ---
 
 ##### How did it go with making the adaptation from concatenations to template literal notation? Do you think you'll mostly use template literal notation from now on?
 
-(Put your answer here)
+  *I definitely think I'll be using template literal notation moving forward, as it really is easier to just place in the values you want without having to be so careful about quotation. I'm not really sure where you wouldn't us it instead of standard concatenation, but I'm sure there is an edge case I'm not familiar with yet.*

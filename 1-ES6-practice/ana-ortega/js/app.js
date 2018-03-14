@@ -36,7 +36,7 @@ function displayPics(){
   }
 
   // TODO: In a sentence or two, explain why the previous line of code threw an error when we changed the variable declaration from `var to `let`.
-  
+
   // According to MDN, the 'let' statement declares a block scope local variable, optionally initializing it to a value. When we were console logging it to the console, it was outside of the scope, so it was no longer defined.
 
   console.log(viewed);

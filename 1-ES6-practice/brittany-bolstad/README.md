@@ -13,7 +13,7 @@ Follow these instructions carefully and in order.
 7. Bugs will erupt everywhere. Debug by using the error messages in the browser console, turning `const` declarations back into `let` where necessary. Expect there to be some back-and-forth between your code editor and your browser.
 8. When you think you have things working, clear local storage and reload the page to ensure that the code still works when starting from a totally clean state.
 9. **Save the code, and do a Git "add" and "commit".**
-10. Now find all concatenations in the code and convert them into template literal notation
+10. Now find all concatenations in the code and convert them into template literal notationgit
 11. Reload the browser to ensure that the code works as expected.
 12. **Save the code, and do a Git "add" and "commit".**
 13. Answer the following questions:

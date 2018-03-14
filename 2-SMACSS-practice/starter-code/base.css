@@ -1,1 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Abel|Oswald:700|Yellowtail|Patrick+Hand');
+
+nav {
+  margin-top: 25px;
+}
+
+nav ul {
+  float: right;
+} 

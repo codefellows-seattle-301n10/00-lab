@@ -22,10 +22,10 @@ Follow these instructions carefully and in order.
 
 ##### Investigate how `let` and `const` are now used in the code. Where did you need to convert `const` into `let` to make the code work? Can you identify any patterns/similarities?
 
-(Put your answer here)
+For the loops, you can't use const to define a variable because the counters need to be mutabile in order to function properly. That seemed to be the biggest conflict with changing lets to const. Same with certain global variables that need to be mutable as well. Really have to think about overall design before using var, let and const
 
 ---
 
 ##### How did it go with making the adaptation from concatenations to template literal notation? Do you think you'll mostly use template literal notation from now on?
 
-(Put your answer here)
+Pretty smooth. The simplicity is much nicer and I think a little more human-friendly to read so it is very apparent to another coder exactly what is happening and I will be trying to implement them more in my own work.

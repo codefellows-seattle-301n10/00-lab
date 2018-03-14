@@ -22,10 +22,10 @@ Follow these instructions carefully and in order.
 
 ##### Investigate how `let` and `const` are now used in the code. Where did you need to convert `const` into `let` to make the code work? Can you identify any patterns/similarities?
 
-(Put your answer here)
+All of the for loops needed to go back because it defeats the purpose of a for loop if you cand change it each time you want to run the loop. Also any of the other varialbes that were started with 0 (expecting to add to it later). Basically any variables that you want to change later will not use const.
 
 ---
 
 ##### How did it go with making the adaptation from concatenations to template literal notation? Do you think you'll mostly use template literal notation from now on?
 
-(Put your answer here)
+Yes, I'll get used to it. It was a quick change over, and any time I can write a little less code to get the same result is great. 

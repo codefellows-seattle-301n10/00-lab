@@ -22,10 +22,10 @@ Follow these instructions carefully and in order.
 
 ##### Investigate how `let` and `const` are now used in the code. Where did you need to convert `const` into `let` to make the code work? Can you identify any patterns/similarities?
 
-(Put your answer here)
+Let allowed you to consistantly declare variables in the scope whereas const only allowed you to use it one time for that variable. allProducts and totalClicks is used mulitple times within the code as a variable so a const wouldn't work. 
 
 ---
 
 ##### How did it go with making the adaptation from concatenations to template literal notation? Do you think you'll mostly use template literal notation from now on?
 
-(Put your answer here)
+I thought it was pretty straight forward changing the ' `. It makes more sense to use ` so I will probably use it more often even though its harder to get to on my keyboard.

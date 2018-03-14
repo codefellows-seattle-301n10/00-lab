@@ -37,7 +37,7 @@ function displayPics(){
   // console.log(rando);
 
   // TODO: In a sentence or two, explain why the previous line of code threw an error when we changed the constiable declaration from `const to `const`.
-  // PUT YOUR RESPONSE IN THIS COMMENT
+// The previous line caused an error when we changed it because it can't be delared again and rando declared it.
 
   // console.log(vichewed)
 

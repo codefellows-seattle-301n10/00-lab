@@ -12,6 +12,10 @@ aside {
   padding-bottom: 60px
 }
 
+aside img {
+  float: left;
+}
+
 #logo {
   float: left;
   padding-bottom: 25px;
@@ -56,4 +60,14 @@ aside {
   text-decoration: none;
   padding-left: 30px;
   float: right;
+}
+
+.recipe {
+  letter-spacing: .1em;
+  font-family: 'Patrick Hand', cursive;
+  color: #666a42;
+  background-image: url("img/list-bg.png");
+  height: 260px;
+  padding: 37px 0 0 60px;
+  margin: 40px 0;
 }

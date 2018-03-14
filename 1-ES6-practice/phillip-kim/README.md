@@ -22,10 +22,10 @@ Follow these instructions carefully and in order.
 
 ##### Investigate how `let` and `const` are now used in the code. Where did you need to convert `const` into `let` to make the code work? Can you identify any patterns/similarities?
 
-(Put your answer here)
+Any value that needs to increase had to be converted to let instead of being const.  This is because const values cannot be changed, so any code that increments its value cannot be changed which causes errors.  In the code example, all for loops, allProducts, and the totalClicks caused errors because those values would change as you attempt to run the code, when participating in the survey, and when pushing more values into the array that were const values.
 
 ---
 
 ##### How did it go with making the adaptation from concatenations to template literal notation? Do you think you'll mostly use template literal notation from now on?
 
-(Put your answer here)
+Changing the concatenations to template literal notation went well.  It was interersting to see how much simpler it could get using template literal notation.  I will definitely start using template literal notation for more coding.

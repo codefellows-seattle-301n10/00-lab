@@ -28,4 +28,4 @@ I am still not sure how this all works, I was able to complete let and const par
 
 ##### How did it go with making the adaptation from concatenations to template literal notation? Do you think you'll mostly use template literal notation from now on?
 
-No idea currently stuck on this one and unsure.
+Will from my understanding it is a way to covert your code to more simple compact string so you dont have huge lines of code.

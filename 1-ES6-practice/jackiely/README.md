@@ -22,10 +22,10 @@ Follow these instructions carefully and in order.
 
 ##### Investigate how `let` and `const` are now used in the code. Where did you need to convert `const` into `let` to make the code work? Can you identify any patterns/similarities?
 
-(Put your answer here)
+Variables declared with 'const' can't be reassigned later.  This was noticeable with the i's in the for loops.  Please note, I didn't realize this towards the end, so previous commits will have i's declaced with const, but it should be declared with 'lets' towards the end of the assignment.  For allProducts, it had to be declared with 'let' because that array is used with localStorage, which will be accessed again if there's localStorage and its contents needs to be parsed.
 
 ---
 
 ##### How did it go with making the adaptation from concatenations to template literal notation? Do you think you'll mostly use template literal notation from now on?
 
-(Put your answer here)
+This will take some time to adjust to since we've been taught to concatenate with the plus sign for so long that using a back tick, dollar sign and curly braces are new and foreign.  It does read better.  If anything, it's good to try something new and try to embrace the change.

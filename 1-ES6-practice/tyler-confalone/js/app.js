@@ -71,8 +71,8 @@ function handleClick(event) {
 }
 
 function showList() {
-  for(let i = 0; i < allProducts.length; i++) {
-    let liEl = document.createElement('li');
+  for(const i = 0; i < allProducts.length; i++) {
+    const liEl = document.createElement('li');
     liEl.textContent = allProducts[i].name + ' has ' + allProducts[i].votes + ' votes in ' + allProducts[i].views + ' views';
     list.appendChild(liEl);
   }

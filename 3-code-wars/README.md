@@ -4,7 +4,7 @@ Part of growing as a programmer is to practice, practice, practice. Throughout t
 
 ### Whiteboarding
 
-Get together with your partner and read through the challenge. There are several items to accomplish, as time allows:
+There are several items to accomplish, as time allows:
   - Read through the challenge and make sure you understand what is being asked.
   - Pseudocode your solution on the whiteboard. Pseudocode can be described as writing out your plan in human-readable form. For example, `set up a counter` or `multiply each value by 2`.
   - You should **not** be writing any actual code, only referencing Code Wars for the problem domain.

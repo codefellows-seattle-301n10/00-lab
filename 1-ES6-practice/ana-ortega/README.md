@@ -22,10 +22,10 @@ Follow these instructions carefully and in order.
 
 ##### Investigate how `let` and `const` are now used in the code. Where did you need to convert `const` into `let` to make the code work? Can you identify any patterns/similarities?
 
-(Put your answer here)
+'const' is used for variable that don't get renamed or reassigned, while 'let' is used within a certain scope, but is a bit more flexible. I noticed that our empty array for allProducts could not be assigned as a const, and niether could our total clicks. This makes sense because everytime the user goes through the marketing study, these values change. 
 
 ---
 
 ##### How did it go with making the adaptation from concatenations to template literal notation? Do you think you'll mostly use template literal notation from now on?
 
-(Put your answer here)
+It was a little difficult at first, but when I used the command+f to find all the "+" which indicate there is a concatenation, it made it a bit simpler. I think that I will be making an effort to use template literal notation because I think its too time consuming to make sure your spacing is correct in strings, and I find myself going back and forth a lot to check.

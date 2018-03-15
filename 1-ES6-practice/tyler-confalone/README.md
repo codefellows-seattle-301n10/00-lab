@@ -22,10 +22,10 @@ Follow these instructions carefully and in order.
 
 ##### Investigate how `let` and `const` are now used in the code. Where did you need to convert `const` into `let` to make the code work? Can you identify any patterns/similarities?
 
-(Put your answer here)
+allProducts and totalClicks needed to be let statements and const does not work bc they are constantly changing when the code is running.  totalClicks is keeping a tally while allProducts is using different products.
 
 ---
 
 ##### How did it go with making the adaptation from concatenations to template literal notation? Do you think you'll mostly use template literal notation from now on?
 
-(Put your answer here)
+Template literal seems like a no brainer, I wonder if there is a use for concatenation or are we done with it?

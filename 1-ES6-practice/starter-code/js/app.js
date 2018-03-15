@@ -16,7 +16,7 @@ var votes = [];
 
 function Product(name) {
   this.name = name;
-  this.path = 'img/' + name + '.jpg';
+  this.path = `img/${name}.jpg`;
   this.votes = 0;
   this.views = 0;
   allProducts.push(this);
@@ -35,7 +35,7 @@ function displayPics(){
     }
   }
   console.log(rando);
-  // TODO: In a sentence or two, explain why the previous line of code threw an error when we changed the variable declaration from `var to `let`.
+  // TODO: In a sentence or two, explain why the previous line of code threw an error when we changed the variable declaration from `var to `var`.
 
   // The variable rando is declard within the function and can not be called outside of it's scope.
 
@@ -62,9 +62,9 @@ function handleClick(event) {
   }
   totalClicks += 1;
   for(var i = 0; i < names.length; i++){
-    if(event.target.id === allProducts[i].name) {
+    if(event.target.id === `${allProducts[i].name}`) {
       allProducts[i].votes += 1;
-      console.log(event.target.id + ' has ' + allProducts[i].votes + ' votes in ' + allProducts[i].views + ' views');
+      console.log(`event.target.id has ${allProducts[i].votes} votes in ${allProducts[i].views} views`);
     }
   }
   localStorage.busmall = JSON.stringify(allProducts);
@@ -75,7 +75,7 @@ function handleClick(event) {
 function showList() {
   for(var i = 0; i < allProducts.length; i++) {
     var liEl = document.createElement('li');
-    liEl.textContent = allProducts[i].name + ' has ' + allProducts[i].votes + ' votes in ' + allProducts[i].views + ' views';
+    liEl.textContent = `${allProducts[i].name} has ${allProducts[i].votes} votes in ${allProducts[i].views} views`;
     list.appendChild(liEl);
   }
 }

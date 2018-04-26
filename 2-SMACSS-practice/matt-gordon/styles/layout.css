@@ -1,4 +1,15 @@
 
+
+nav, article, aside, footer section {
+  margin: 0 auto;
+  width: 900px;
+}
+
+nav {
+  margin-top: 25px;
+}
+
+
 nav ul {
   float: right;
 }
@@ -43,12 +54,4 @@ aside button {
   color: #fff;
   font-size: 1.2em;
   border: none;
-}
-
-
-footer section p{
-  padding: 50px 0;
-  line-height: 1.5em;
-  text-align: center;
-  color: #aaa;
 }
